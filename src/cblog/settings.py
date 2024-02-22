@@ -86,7 +86,7 @@ DATABASES = {
         "NAME": "awscapstones-webapp-blog",
         "USER": "admin",
         "PASSWORD": config("PASSWORD"),
-        "HOST": "thesisproject-db-instance.cpcgyiegef2x.us-east-1.rds.amazonaws.com",  # rds endpoint
+        "HOST": "aws-capstone-rds.cpcgyiegef2x.us-east-1.rds.amazonaws.com",  # rds endpoint
         "PORT": "3306",
     }
 }
