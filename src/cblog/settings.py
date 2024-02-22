@@ -83,7 +83,7 @@ WSGI_APPLICATION = "cblog.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "thesis",
+        "NAME": "awscapstones-webapp-blog",
         "USER": "admin",
         "PASSWORD": config("PASSWORD"),
         "HOST": "thesisproject-db-instance.cpcgyiegef2x.us-east-1.rds.amazonaws.com",  # rds endpoint
